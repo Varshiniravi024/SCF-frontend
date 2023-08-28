@@ -1,0 +1,27 @@
+.dropDownContainer {
+  margin: 0px 10px;
+}
+.ant-select-selector {
+  border-radius: 10px;
+}
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 100%;
+  border: 1px solid #e9e9e9;
+  height: 43px;
+}
+.inputContainer {
+  width: 15%;
+  height: 43px;
+  border-radius: 10px;
+  border: 1px solid #e9e9e9;
+  margin: 0px 10px;
+}
+.datepickerContainer {
+  border-radius: 10px;
+  border: 1px solid #e9e9e9;
+  height: 43px;
+  margin: 0px 10px;
+  font-size: 12px;
+}

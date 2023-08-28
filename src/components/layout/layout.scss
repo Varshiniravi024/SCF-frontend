@@ -1,0 +1,380 @@
+.menuBarContainer {
+  .finfloLogo {
+    margin: 30px 20px;
+  }
+
+
+  .ant-menu.ant-menu-dark,
+  .ant-menu-dark .ant-menu-sub,
+  .ant-menu.ant-menu-dark .ant-menu-sub {
+    color: #95b0b9;
+    background-color: #ffffff;
+  }
+
+  .ant-menu-dark .ant-menu-item,
+  .ant-menu-dark .ant-menu-item-group-title,
+  .ant-menu-dark .ant-menu-item>a,
+  .ant-menu-dark .ant-menu-item>span>a {
+    color: unset;
+  }
+
+  // .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  //   border-right: 2px solid #4E6ACB;
+  //   background-color: transparent;
+
+  //   .ant-menu-title-content {
+  //     color: #01565b;
+  //   }
+  // }
+
+  .ant-menu-vertical .ant-menu-item::after,
+  .ant-menu-vertical-left .ant-menu-item::after,
+  .ant-menu-vertical-right .ant-menu-item::after,
+  .ant-menu-inline .ant-menu-item::after {
+    border-right: 2px solid #4E6ACB;
+  }
+
+  .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: transparent;
+  }
+
+  .ant-menu-inline.ant-menu-root .ant-menu-item>.ant-menu-title-content,
+  .ant-menu-inline.ant-menu-root .ant-menu-submenu-title>.ant-menu-title-content {
+    font-family: "Poppins";
+    font-size: 15px;
+  }
+
+  .ant-menu-inline .ant-menu-item:not(:last-child) {
+    margin-bottom: 26px;
+  }
+
+  .ant-menu-inline {
+    border: none;
+  }
+}
+
+.profileContainer {
+  // display: flex;
+  position: fixed;
+  background-color: #ffffff;
+  // width: 100%;
+  z-index: 1;
+  // height: 192px;
+  height: 10vh;
+  padding: 10px;
+
+  .ant-avatar {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+  }
+
+  h3 {
+    color: #4E6ACB;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  p {
+    color: #494949;
+    font-weight: 500;
+  }
+
+  .inputSearchField {
+    position: absolute;
+    right: 27vw;
+    width: 20%;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .notificationImg {
+    position: absolute;
+    right: 23vw;
+    cursor: pointer;
+  }
+
+  .profileDetail {
+    position: absolute;
+    right: 8vw;
+    text-align: end;
+    font-family: "Poppins";
+  }
+
+  .profileAvatar {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .ProfileImg {
+    position: absolute;
+    right: 2vw;
+    border: none;
+    background-color: transparent;
+  }
+
+  .signoutPopover {
+    position: absolute;
+    right: 2vw;
+    top: 10px;
+    cursor: pointer;
+  }
+}
+
+.MainContainer {
+  // background-color: #f0f7f7;
+}
+
+.mainLayoutContainer .ant-layout-content {
+  // background-color: #ECF6FF !important;
+  // margin: 10vh 0px 0px 0rem !important;
+}
+
+.mainLayoutStyle .ant-layout-content {
+  // background-color: #ECF6FF !important;
+  // margin: 10vh 0px 0px 0rem !important;
+}
+
+.finfloLogo {
+  padding: 20px;
+}
+
+.finfloLogoText {
+  padding: 20px;
+  width: 100%;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  // color: #01565b !important;
+  border-right: 2px solid #4E6ACB;
+}
+
+.ant-menu-item a::before {
+  // color: #01565b;
+  font-family: "Poppins";
+}
+
+.ant-menu-item a {
+  color: #4E6ACB;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.ant-menu-item-selected a,
+.ant-menu-item-selected a:hover {
+  // color: #01565b !important;
+}
+
+.ant-menu-item a:hover {
+  color: #4E6ACB !important;
+}
+
+.ant-menu-vertical .ant-menu-item,
+.ant-menu-vertical-left .ant-menu-item,
+.ant-menu-vertical-right .ant-menu-item,
+.ant-menu-inline .ant-menu-item,
+.ant-menu-vertical .ant-menu-submenu-title,
+.ant-menu-vertical-left .ant-menu-submenu-title,
+.ant-menu-vertical-right .ant-menu-submenu-title,
+.ant-menu-inline .ant-menu-submenu-title {
+  overflow: unset;
+}
+
+.ant-layout {
+  background-color: unset !important;
+}
+
+.layoutContainer {
+  height: 100%;
+  border-right: 0;
+  background-color: #ffffff;
+  color: white;
+
+  .Count {
+    text-align: end;
+    margin-top: -40px;
+  }
+
+  .sideNavbar,
+  .ant-collapse {
+
+    border: unset;
+    background-color: unset;
+
+    .ant-menu .ant-menu-sub .ant-menu-inline .ant-menu-title-content {
+      margin-left: 10px;
+
+    }
+
+    .ant-collapse-content-box,
+    .sideBarText {
+      color: #4E6ACB;
+      padding-left: 15px;
+      font-family: "Poppins";
+      font-weight: 400;
+      margin-left: 10px;
+
+    }
+
+    .ant-collapse-header {
+      color: #4E6ACB;
+      font-weight: 400;
+      font-family: "Poppins";
+      // font-weight: 400;
+    }
+
+  }
+
+  .sideNavbar,
+  .ant-collapse>.ant-collapse-item {
+    border: unset;
+  }
+}
+
+.adjustwidth {
+  height: 100%;
+  border-right: 0;
+  background-color: #ffffff;
+  color: white;
+
+  .Count {
+    text-align: end;
+    margin-top: -40px;
+  }
+
+  .sideNavbar,
+  .ant-collapse {
+    border: unset;
+    background-color: unset;
+
+    .ant-collapse-content-box,
+    .sideBarText {
+      color: #006666;
+      padding-left: 15px;
+      font-family: "Poppins";
+    }
+
+    .ant-collapse-header {
+      color: #006666;
+      font-weight: 500;
+      font-family: "Poppins";
+    }
+  }
+
+  .sideNavbar,
+  .ant-collapse>.ant-collapse-item {
+    border: unset;
+  }
+}
+
+.site-layout-background {
+  min-height: 100vh;
+  position: fixed;
+  background: #ffffff;
+  z-index: 9999;
+}
+
+// side menu bar scroll
+.ant-layout-sider-children {
+  height: 100vh;
+  position: relative;
+  overflow: scroll;
+}
+
+.ant-modal {
+  width: 400px !important;
+  top: 69px;
+  margin-right: 10px;
+}
+
+.ant-modal-footer {
+  text-align: start;
+
+}
+
+
+.profileCard {
+  display: flex;
+
+  .profileDetail {
+    text-align: start;
+  }
+
+  .profileAvatar {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .ProfileImg {
+    border: none;
+    background-color: transparent;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .ant-avatar {
+    width: 60px;
+    height: 60px;
+  }
+
+}
+
+.ant-modal-mask {
+  background-color: transparent !important;
+}
+
+.sideBarText {
+  font-size: 15px;
+
+}
+
+.disabledMenuStatus {
+  display: none;
+}
+
+.activeMenu {
+  border-right: 2px solid #4E6ACB !important;
+  background-color: #ECF6FF !important;
+}
+
+// // .ant-menu-item-only-child {
+//   .activeMenu{
+//   border-right: 2px solid #4E6ACB !important;
+// // }
+// }
+
+.notificationCard {
+  padding: 6px;
+  margin: 5px;
+
+  .ant-card-body {
+    padding: 6px;
+  }
+
+  .notificationCloseIcon {
+    float: right;
+    margin-top: 0;
+  }
+
+  p {
+    color: #006666;
+    font-size: 15px;
+  }
+
+  .noticationText {
+    display: flex
+  }
+
+  span {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+}
+
+.clearAllNotification {
+  float: right;
+  margin-top: -20px;
+}

@@ -1,0 +1,56 @@
+.TabContainer {
+    // .HeadingTxt {
+    //     text-transform: capitalize;
+    //     color: #403F3F;
+    //     font-size: 20px;
+    // }
+
+    .ant-tabs-tab:hover {
+        color: unset
+    }
+
+    .ant-tabs-ink-bar {
+        background-color: #4E6ACB;
+    }
+
+    .ant-tabs-tab {
+        padding: 12px 10px 6px;
+        font-size: 16px;
+        font-family: "Poppins";
+    }
+
+    .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+        color: #4E6ACB;
+    }
+
+    .ant-tabs-tab+.ant-tabs-tab {
+        margin: 0 0 0 14px;
+    }
+
+    .ant-tabs-nav {
+        width: 98%;
+    }
+
+    .removeTab {
+        .ant-tabs-tab {
+            display: none !important;
+        }
+    }
+}
+
+.ant-menu-submenu .ant-menu-submenu-vertical .ant-menu-submenu-active {
+    padding: 0 !important;
+}
+
+.ant-menu-submenu-title {
+    padding: 0 !important;
+}
+
+.ant-menu-light .ant-menu-submenu-title:hover {
+    color: #006666;
+}
+
+.ant-menu-submenu:hover>.ant-menu-submenu-title>.ant-menu-submenu-expand-icon,
+.ant-menu-submenu:hover>.ant-menu-submenu-title>.ant-menu-submenu-arrow {
+    color: #006666;
+}

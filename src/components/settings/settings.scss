@@ -1,0 +1,123 @@
+.settingsMainContainer {
+
+    .settingsTabContainer,
+    .ant-tabs-card {
+
+        .ant-tabs-nav .ant-tabs-tab-active,
+        .ant-tabs-card>div>.ant-tabs-nav .ant-tabs-tab-active {
+            background: #4E6ACB;
+
+            color: #ffffff;
+            border-radius: 5px;
+        }
+
+        .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+            color: #ffffff;
+            font-size: 16px;
+        }
+
+        .ant-tabs-tab {
+            background: #ECF6FF;
+            border-radius: 5px;
+            color: #000000;
+        }
+    }
+
+    .TabContainer {
+        // .HeadingTxt {
+        //     text-transform: capitalize;
+        //     color: #403F3F;
+        //     font-size: 20px;
+        // }
+
+        .ant-tabs-tab:hover {
+            color: unset
+        }
+
+        .ant-tabs-ink-bar {
+            background-color: #4E6ACB;
+        }
+
+        .ant-tabs-tab {
+            padding: 12px 10px 6px;
+            font-size: 16px;
+            font-family: "Poppins";
+            background: unset;
+        }
+
+        .ant-tabs-nav .ant-tabs-tab-active,
+        .ant-tabs-card>div>.ant-tabs-nav .ant-tabs-tab-active {
+            background-color: unset;
+        }
+
+        .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+            color: #4E6ACB;
+            background-color: unset;
+        }
+
+        .ant-tabs-tab+.ant-tabs-tab {
+            margin: 0 0 0 14px;
+        }
+
+        .ant-tabs-nav {
+            width: 98%;
+        }
+
+        .removeTab {
+            .ant-tabs-tab {
+                display: none !important;
+            }
+        }
+    }
+
+}
+
+.transactionSubmit {
+    height: 43px;
+    width: 125px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #4E6ACB;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "Poppins";
+}
+
+.ant-btn:hover,
+.ant-btn:focus {
+    color: #FFFFFF;
+    border-color: #4E6ACB;
+    background-color: #4E6ACB;
+}
+
+.userSettingsCollapse {
+
+    .userSettingsCollapse,
+    .ant-collapse>.ant-collapse-item>.ant-collapse-header {
+        display: block;
+    }
+
+    .ant-collapse>.ant-collapse-item:last-child,
+    .ant-collapse>.ant-collapse-item:last-child>.ant-collapse-header {
+        border-radius: 0;
+        border: none;
+    }
+
+    .anticon .anticon-right .ant-collapse-arrow {
+        margin: 10px;
+    }
+
+    .counterPartyDetails {
+        background-color: #ECF6FF;
+        border: none;
+        font-family: "Poppins";
+        font-size: 16px;
+        color: #4E6ACB;
+        margin-top: 10px;
+        border-radius: 10px;
+
+        .ant-col-8 {
+            color: #4E6ACB;
+        }
+    }
+}

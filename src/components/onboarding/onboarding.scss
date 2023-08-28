@@ -1,0 +1,160 @@
+.remittanceContainer {
+  label {
+    font-size: 16px;
+    color: #006666;
+    padding: 0px 0px 10px 0px;
+  }
+
+  .ant-input {
+    line-height: 2.5;
+    border-radius: 8px;
+    font-size: 13px;
+    padding: 5px 15px;
+    height: 45px;
+    padding: 5px 15px;
+    border: 0;
+    background-color: #fafafa;
+  }
+
+  .ant-form-horizontal .ant-form-item-label {
+    width: 35%;
+    text-align: left;
+  }
+
+  .ant-form-item-control-input-content {
+    margin-top: -8px;
+  }
+
+  .ant-form-item {
+    margin-bottom: 35px;
+  }
+
+
+}
+
+.OnboadingTabsContainer {
+  .ant-tabs-tab:hover {
+    color: #494949 !important;
+  }
+
+  .ant-tabs {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+  }
+
+  .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #006666;
+    font-size: 16px;
+    font-family: "Poppins";
+  }
+
+  .ant-tabs-tab {
+    color: #c4c4c4;
+    font-size: 16px;
+    font-family: "Poppins";
+    padding: 12px 0 6px;
+  }
+
+  .ant-tabs-ink-bar {
+    background-color: #006666;
+  }
+
+  .onboardingSubmit {
+    position: absolute;
+    right: 50px;
+    margin-top: 25px;
+    height: 43px;
+    width: 125px;
+    border-radius: 5px;
+    border: 1px solid #4E6ACB;
+    background-color: #4E6ACB;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "Poppins";
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+  }
+
+  .SummaryLabel {
+    font-family: "Poppins";
+    font-size: 20px;
+    color: #4E6ACB;
+  }
+
+  .ant-radio-checked .ant-radio-inner {
+    border: 1px solid #006666;
+
+  }
+
+  .ant-radio-inner::after {
+    background-color: #006666;
+  }
+
+  .ant-radio-checked::after {
+    border: 1px solid #006666;
+  }
+
+}
+
+//kyc css
+.kycContainer {
+  .errorMessage {
+    margin-top: unset;
+  }
+
+  .body {
+    width: 100% !important;
+  }
+
+  .ant-form-item .ant-select,
+  .ant-form-item .ant-cascader-picker {
+    width: unset;
+  }
+
+  .ant-form-item .ant-select,
+  .ant-form-item .ant-cascader-picker {
+    width: 225px;
+    background-color: unset;
+  }
+
+  .ant-input {
+    background-color: white !important;
+  }
+
+  .InnerDiv {
+    display: unset;
+  }
+
+  .ant-select .ant-select-selector {
+    background-color: #ffffff !important;
+  }
+
+  .FormContainer {
+    width: 25%
+  }
+
+  .InnerDivList {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background: #fafafa;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .mandatoryDocContainer {
+    text-align: center;
+  }
+
+  .HeadInnerDiv .head {
+    width: 25%;
+    text-align: center;
+  }
+}

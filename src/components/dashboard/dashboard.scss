@@ -1,0 +1,92 @@
+.dashboardContainer{
+    h1{
+        font-size: 16px;
+        font-family: "Poppins";
+    }
+    p{
+        font-size: 16px;
+        font-family: "Poppins";
+    }
+}
+.closeIcon{
+  float: right;
+  padding: 10px;
+  margin: -8px;
+  display: none;
+}
+.cardContainer:hover{
+.closeIcon{
+  float: right;
+  margin: -16px;
+  display: initial;
+  cursor: pointer;
+}
+}
+.ant-list-split .ant-list-item{
+  border: unset;
+  padding: 0;
+  margin: 0px 16px;;
+}
+.draggble{
+  border: unset;
+  padding: 0;
+}
+
+.filterContainer{
+.ant-btn-group > .ant-btn:last-child:not(:first-child), .ant-btn-group > span:last-child:not(:first-child) > .ant-btn{
+  background-color: transparent;
+  border: none;
+  box-shadow: unset;
+}
+}
+
+.programContainer{
+  border: none;
+  .ant-card-bordered{
+    border: none;
+  }
+  .ant-card-body{
+  padding: 0px 0px 0px 0px;
+  border: none;
+  }
+}
+  .programRowContainer{
+    background-color: rgb(232,104,0);
+    width: 70%;
+    border-radius: 10px ;
+   
+    h1{
+      width: auto;
+      color:#FFFFFF;
+      font-weight: 700 !important;
+      padding: 10px;
+    }
+  }
+
+.dashboardRightArrow{
+  width: 30px;
+  height: 30px;
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+
+.financeAgeingContainer{
+  .recharts-legend-item {
+    margin: 20px;
+    .recharts-surface{
+      margin-top: unset;
+    }
+  }
+  .recharts-legend-wrapper{
+    top: 37.007px !important;
+  }
+  .recharts-surface{
+    margin-top: -59px;
+  }
+}
+.recharts-surface{
+  overflow: initial !important;
+}

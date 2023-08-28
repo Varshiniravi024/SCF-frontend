@@ -1,0 +1,25 @@
+.App {
+  width: 100%;
+  .leftMenubarContainer {
+    width: 15%;
+  }
+  .rightComponentContainer {
+    width: 85%;
+  }
+  .mainLayoutContainer {
+    .contentLayout {
+      padding: 24;
+      min-height: 72vh;
+      margin: 10vh 0 0 0rem;
+    }
+  }
+}
+.ErrorMsg{
+  text-align: center;
+  margin: auto;
+  padding-top: 20%;
+  height: 100vh;
+}
+body{
+  background-color: #ECF6FF;
+}

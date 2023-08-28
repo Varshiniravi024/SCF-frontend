@@ -1,0 +1,234 @@
+.createNewAccount {
+  width: 40%;
+  margin: auto;
+
+}
+
+.textHeading {
+  font-family: "Poppins";
+  font-size: 25px;
+  color: #494949;
+  margin-bottom: 5%;
+}
+
+.uploadedDocumentContainer {
+  background-color: #FFFFFF;
+  margin: 20px 0;
+  padding: 15px 25px;
+  border-radius: 5px;
+
+  .counterPartyImage {
+    width: 69px;
+    height: 69px;
+    background-color: #FFFFFF;
+
+    img {
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+    }
+  }
+}
+
+.ManualContainer {
+
+  h1 {
+    color: #494949;
+    font-family: "Poppins";
+    width: 75%;
+    font-size: 20px;
+  }
+
+  .InputContainer {
+    height: 43px;
+    border-radius: 10px;
+    margin-bottom: -4px;
+  }
+}
+
+.ant-table-thead {
+  tr {
+    .ant-table-cell {
+      background-color: #4E6ACB;
+      border: none !important;
+      color: #FFFFFF;
+      font-size: 18px;
+      font-family: "Poppins";
+    }
+
+    th {
+      border: none;
+    }
+
+    td {
+      border: none;
+    }
+  }
+}
+
+.ant-table-tbody {
+  .ant-table-cell {
+    border-right: none !important;
+  }
+}
+
+.PreviousButton {
+  background-color: #ff836b;
+  color: #002859;
+  font-size: 18px;
+  font-family: "Poppins";
+  border-radius: 5px;
+  height: 37px;
+}
+
+.SaveButton {
+  background-color: #f0f7f7;
+  border: 1px solid #006666;
+  color: #006666;
+  font-size: 18px;
+  font-family: "Poppins";
+  border-radius: 5px;
+  height: 37px;
+}
+
+.ant-table.ant-table-bordered>.ant-table-container {
+  position: relative;
+}
+
+.editable-cell-value-wrap {
+  padding: 0 !important;
+}
+
+.ant-table-thead>tr>th,
+.ant-table-tbody>tr>td,
+.ant-table tfoot>tr>th,
+.ant-table tfoot>tr>td {
+  padding: 16px 7px 16px 16px;
+}
+
+.incompleteContainer {
+  background-color: #DAEAEF;
+  margin-bottom: 10%;
+
+  h1 {
+    color: #006666;
+    font-size: 20px;
+    font-family: "Poppins";
+    padding: 10px 20px;
+  }
+}
+
+.completeContainer {
+  background-color: #FFFFFF;
+
+  h1 {
+    color: #006666;
+    font-size: 20px;
+    font-family: "Poppins";
+    padding: 10px 20px;
+  }
+}
+
+.ClearAllBtn {
+  float: right;
+  background-color: #DAEAEF;
+  border: 1px solid #006666;
+  color: #006666;
+  font-size: 18px;
+  font-family: "Poppins";
+  border-radius: 5px;
+  height: 37px;
+  margin-top: -40px;
+}
+
+.ManualContainer {
+
+  .ant-table-thead>tr>th,
+  .ant-table-tbody>tr>td,
+  .ant-table tfoot>tr>th,
+  .ant-table tfoot>tr>td {
+    padding: 16px 1px 16px 5px;
+  }
+}
+
+.manageScfContainer {
+  .GreenButtonContainer {
+    height: 43px;
+    width: 125px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #4E6ACB;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "Poppins";
+    margin: 16px 10px 15px 0;
+  }
+}
+
+
+.importantMark {
+  width: 50px;
+  height: 25px;
+  border: 1px solid red;
+  border-radius: 25px;
+  text-align: center;
+  color: red;
+
+}
+
+.ant-modal-confirm-body {
+  svg {
+    display: none;
+  }
+}
+
+input#file-upload-button {
+  border: 1px dashed green !important;
+}
+
+.errorMsg {
+  color: red;
+  font-size: 10px;
+}
+
+.containerTable {
+  .body {
+    margin: 8px 5px;
+  }
+}
+
+// .approvedFinanceContainer {
+//   .Card_Main_Container {
+//     padding-top: 4vh;
+
+//     .CardContainer {
+//       margin-top: 4%;
+//     }
+//   }
+
+// }
+
+.clearAllButton {
+  float: right;
+  margin-top: -47px;
+}
+
+
+.new_card_main_container {
+  .InnerDiv {
+    align-items: center;
+
+    .ant-select-selector {
+      padding: 9px 9px !important;
+      font-size: 10px;
+    }
+
+    .InputContainer {
+      margin-bottom: 0px;
+    }
+
+    .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+      border: 1px solid #d9d9d9;
+    }
+  }
+}
